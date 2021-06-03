@@ -6,13 +6,6 @@ $(function () {
 
 	"use strict";
 
-	/* Preloader
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-
-	setTimeout(function () {
-		$('.loader_bg').fadeToggle();
-	}, 1500);
-
 	/* JQuery Menu
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
@@ -131,7 +124,7 @@ $(function () {
 	});
 
 
-	
+
 	/* Scroll to Top
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
@@ -361,7 +354,7 @@ $(function () {
 		});
 	});
 
-	/* Product slider 
+	/* Product slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	// optional
 	$('#blogCarousel').carousel({
